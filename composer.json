@@ -1,0 +1,27 @@
+{
+  "name": "ahmedsr/demo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "BugsBountyHunter",
+      "email": "ahmed.saber20170200@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^11.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
